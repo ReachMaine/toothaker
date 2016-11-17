@@ -9,6 +9,7 @@ Version: 1.2
 @import url("../oshin/style.css");
 @import "partials/colors";
 @import "partials/typography";
+@import "partials/contact-form7";
 
 
 
@@ -45,6 +46,13 @@ Version: 1.2
 .portfolio-archives.no-sidebar-page #content-wrap {
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+p {
+margin-bottom: 10px;
+}
+body {
+	line-height: 20px;
 }
 
 /** footer **/
