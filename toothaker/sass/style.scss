@@ -11,9 +11,12 @@ Version: 1.2
 @import "partials/typography";
 @import "partials/contact-form7";
 
-
+$content-width: 55%;
+$content-right-margin: 4%;
+$sidebar-width: 38%;
 
 /*** slidebar in oshine slidebar is above main content *** */
+
 .sb-slidebar { // the sidebar sliding bar for mobil menu
 	height: initial;
 	max-width: 280px;
@@ -37,6 +40,14 @@ Version: 1.2
 		}
 	}
 }
+
+.title-module-wrap.page-title-module-custom {
+	padding: 10px 0px;
+}
+
+#navigation .current_page_item a, #navigation .current_page_item a:hover, #navigation a:hover {
+	color: white!important;
+}
 /*** styling of content */
 .left-sidebar-page,
 .right-sidebar-page,
@@ -48,11 +59,28 @@ Version: 1.2
 	padding-bottom: 40px;
 }
 
+p, li {
+	font-size: 16px;
+}
+
 p {
 margin-bottom: 10px;
 }
 body {
 	line-height: 20px;
+}
+
+ul li, ol li {
+	margin-bottom: 0px;
+}
+
+ul ul, li ul {
+	margin-top: 0px;
+}
+
+/* Hide comments */
+.be-themes-comments.be-row.be-wrap {
+	display: none;
 }
 
 /** footer **/
