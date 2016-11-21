@@ -33,6 +33,10 @@ $sidebar-width: 38%;
 	}
 }
 /*  header stuff - here */
+.header-breadcrumb {
+	display: none;
+}
+
 #header-controls-right {
 	.sliderbar-nav-controller-wrap {
 		.menu-controls {
@@ -64,7 +68,7 @@ $sidebar-width: 38%;
 }
 
 p, li {
-	font-size: 1em;
+	font-size: 18px;
 }
 
 p {

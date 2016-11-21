@@ -17,6 +17,9 @@ i.fa-pull-right {
   float: right;
   padding-left: 5px; }
 
+ul, ol {
+  padding-left: 2.3em; }
+
 /* ----------- end typography ----------- */
 .wpcf7-textarea {
   height: 200px; }
@@ -43,6 +46,9 @@ div.wpcf7 p {
       border: 1px solid #dddedf; }
 
 /*  header stuff - here */
+.header-breadcrumb {
+  display: none; }
+
 #header-controls-right .sliderbar-nav-controller-wrap .menu-controls {
   border-radius: 2px; }
 
@@ -53,6 +59,10 @@ div.wpcf7 p {
   color: white !important; }
 
 /*** styling of content */
+#content {
+  padding-top: 2.8em;
+  padding-bottom: 2em; }
+
 .left-sidebar-page,
 .right-sidebar-page,
 .no-sidebar-page .be-section-pad:first-child,
@@ -63,7 +73,7 @@ div.wpcf7 p {
   padding-bottom: 40px; }
 
 p, li {
-  font-size: 16px; }
+  font-size: 18px; }
 
 p {
   margin-bottom: 10px; }
@@ -88,6 +98,12 @@ ul ul, li ul {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (max-width: 768px) {
+  #main-wrapper #hero-section .hero-section-wrap {
+    height: 225px !important; } }
+@media only screen and (max-width: 425px) {
+  #main-wrapper #hero-section .hero-section-wrap {
+    height: 180px !important; } }
 @media only screen and (min-width: 768px) {
   .right-sidebar-page section#page-content {
     width: 55%;
