@@ -49,6 +49,10 @@ $sidebar-width: 38%;
 	color: white!important;
 }
 /*** styling of content */
+#content {
+	padding-top: 2.8em;
+	padding-bottom: 2em;
+}
 .left-sidebar-page,
 .right-sidebar-page,
 .no-sidebar-page .be-section-pad:first-child,
@@ -60,11 +64,11 @@ $sidebar-width: 38%;
 }
 
 p, li {
-	font-size: 16px;
+	font-size: 1em;
 }
 
 p {
-margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 body {
 	line-height: 20px;

@@ -1,6 +1,6 @@
 /* **** media **** */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	.reach-phone-cols { // dont make social icons rows 100% at here
 		.textwidget {
 			.one-third {
@@ -31,6 +31,9 @@
 		}
 		#hero-section {
 		//	top: 120px;
+			.hero-section-wrap  {
+				height: 225px!important;
+			}
 		}
 		#content {
 		//	padding-top: 120px;
@@ -40,33 +43,13 @@
 		}
 	}
 }
-
-@media only screen and (min-width: 768px) {
-	.right-sidebar-page section#page-content {
-		width: $content-width;
-		margin-right: $content-right-margin;
-	}
-
-	section#right-sidebar {
-		width: $sidebar-width;
-	}
-}
-
-@media only screen and (min-width: 481px) {
-	div#header-top-bar {
-		display: none;
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	.title-module-wrap.page-title-module-custom .page-title-custom {
-		font-size: 14px;
-	}
-	.title-module-wrap.page-title-module-custom {
-		padding: 5px 0px;
-	}
-	h3, h4 {
-		font: 400 20px "Montserrat","Open Sans","Arial",sans-serif!important;
-		line-height: 27px!important;
-	}
+@media only screen and (max-width: 425px) {
+		#main-wrapper {
+			#hero-section {
+			//	top: 120px;
+				.hero-section-wrap  {
+					height: 180px!important;
+				}
+			}
+		}
 }
