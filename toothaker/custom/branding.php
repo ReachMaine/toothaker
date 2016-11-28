@@ -9,7 +9,6 @@
 				background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/admin-login.png);
 				padding-bottom: 30px;
 				background-size: contain;
-				margin-left: -30px;
 				margin-bottom: 0px;
 				margin-right: 0px;
 				width: 100%;
