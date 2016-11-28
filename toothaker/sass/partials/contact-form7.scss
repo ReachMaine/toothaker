@@ -12,3 +12,10 @@ div.wpcf7 {
 div.wpcf7 p {
   margin-bottom: 0px;
 }
+// need 'cause IE doesnt seem to be able to handle input[type="submit"] as a css selector
+input.wpcf7-submit {
+    padding: 18px;
+    border: 0px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
